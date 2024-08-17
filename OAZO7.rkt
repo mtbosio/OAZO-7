@@ -2,8 +2,6 @@
 
 (require typed/rackunit)
 
-;; Progress - Full Project Implemented but couldn't pass all the tests
-
 ;; ---------------- OAZO7 ----------------
 
 ;; Expr	 	=	 	Num
