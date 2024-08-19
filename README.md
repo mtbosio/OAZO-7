@@ -7,7 +7,7 @@ Here is the Backus-Naur Form (BNF):
 
 
 	
-    Expr	 	=	 	Num
+    Expr	=	 	Num
  	 	|	 	id
  	 	|	 	String
  	 	|	 	{id := Expr}
