@@ -1,4 +1,4 @@
-<img width="698" alt="Screenshot 2024-08-17 at 11 49 09 AM" src="https://github.com/user-attachments/assets/56b5b741-4370-4dd1-8117-613009a904e3"># OAZO-7
+# OAZO-7
 OAZO-7 is a language I created for my CSC 430 Programming Languages class. It is a custom-designed language developed in typed Racket with a defined syntax, type system, and operational semantics.
 
 Here is the Backus-Naur Form (BNF):
@@ -69,15 +69,7 @@ Key Features
   Includes mechanisms to handle errors related to type mismatches and out-of-bounds operations.
 
 Here of some examples of using the language:
-
-In the first simple example, the expression defines and calls a simple anonymous function that evaluates the sum of 3 and 4.
-<img width="698" alt="Screenshot 2024-08-17 at 11 49 09 AM" src="https://github.com/user-attachments/assets/0e613925-43a6-45ff-a958-72972e2c5b93">
-
-In the second example, the expression first defines x as 4, then within the inner let, redefines x as 12 and uses this inner value of x. Finally, it adds the inner x and the outer x together.
-<img width="698" alt="Screenshot 2024-08-17 at 11 49 09 AM" src="https://github.com/user-attachments/assets/f2f0e0f9-19a9-4a78-ad14-9ae218056e98">
-
-In the third example, the expression first computes the sum of 9 and 14 and assigns it to z, then defines y as 98, and finally adds z and y:
-<img width="698" alt="Screenshot 2024-08-17 at 11 49 09 AM" src="https://github.com/user-attachments/assets/0801ed46-2ebe-413f-9375-ddd066be91f8">
+<img width="850" alt="Screenshot 2024-08-18 at 8 19 00 PM" src="https://github.com/user-attachments/assets/75fbdb1f-1a93-4274-9f92-78c79f4bf9df">
 
 As you can see, when evaluating these expressions the computed values are as expected (in order):
 <img width="432" alt="Screenshot 2024-08-17 at 11 56 47 AM" src="https://github.com/user-attachments/assets/14d1ef18-afd2-4992-b904-27c51f295efd">
@@ -86,6 +78,7 @@ And here is a small, simple interactive text game I made using the language:
 <img width="991" alt="Screenshot 2024-08-17 at 11 44 21 AM" src="https://github.com/user-attachments/assets/8a118dbb-de5c-429b-a920-35d9e0d5172c">
 
 And the result:
+
 <img width="436" alt="Screenshot 2024-08-17 at 11 43 59 AM" src="https://github.com/user-attachments/assets/0eb87a77-6d5f-48b5-a95b-53feb95e9f42">
 
 
