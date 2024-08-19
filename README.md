@@ -5,8 +5,9 @@ Here is the Backus-Naur Form (BNF):
 
 ---------------- OAZO7 ----------------
 
- Expr	 	=	 	Num
- 
+
+	
+    Expr	 	=	 	Num
  	 	|	 	id
  	 	|	 	String
  	 	|	 	{id := Expr}
@@ -15,13 +16,13 @@ Here is the Backus-Naur Form (BNF):
 	 	|	 	{anon {[ty id] ...} : Expr}
  	 	|	 	{seq Expr ...}
  	 	|	 	{Expr Expr ...}
- ty	 	=	 	num
+    ty	 	=	 	num
  	 	|	 	bool
  	 	|	 	str
  	 	|	 	void
  	 	|	 	{ty ... -> ty}
  	 	|	 	numarray
- operator	=	 	+
+    operator	=	 	+
  	 	|	 	-
  	 	|	 	*
  	 	|	 	/
@@ -33,8 +34,8 @@ Here is the Backus-Naur Form (BNF):
  	 	|	 	aref
  	 	|	 	aset
  	 	|	 	alen
-
-where an id is not let, :=, if, then, else, :, <-, seq
+    
+    where an id is not let, :=, if, then, else, :, <-, seq
 
 Key Features
 1. Expressions:
